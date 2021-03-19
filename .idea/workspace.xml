@@ -10,7 +10,10 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5eb5bc84-3636-41d1-bc82-f9440bcd44df" name="Default Changelist" comment="" />
+    <list default="true" id="5eb5bc84-3636-41d1-bc82-f9440bcd44df" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/farro/tmdbclient/presentation/App.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/farro/tmdbclient/presentation/App.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,9 +53,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="add_unversioned_files" value="$PROJECT_DIR$/app/src/main/java/com/farro/tmdbclient/presentation/App.kt" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="add_unversioned_files" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
@@ -162,12 +167,22 @@
       <option name="presentableId" value="Default" />
       <updated>1593405144076</updated>
     </task>
+    <task id="LOCAL-00001" summary="Refactor some codes and added update function for API">
+      <created>1616143599168</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616143599168</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="Refactor some codes and added update function for API" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor some codes and added update function for API" />
   </component>
   <component name="WindowStateProjectService">
     <state x="743" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1616141228144">
@@ -190,46 +205,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="275" key="AndroidCreateResourceFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1616139797593" />
-    <state x="553" y="12" key="CommitChangelistDialog2" timestamp="1616143313418">
+    <state x="553" y="12" key="CommitChangelistDialog2" timestamp="1616143598058">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="553" y="12" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1616143313418" />
+    <state x="553" y="12" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1616143598058" />
     <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1616143159215">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1616143159215" />
-    <state x="587" y="487" key="Github.ShareDialog" timestamp="1616143018132">
+    <state x="587" y="487" key="Github.ShareDialog" timestamp="1616143401270">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="587" y="487" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1616143018132" />
-    <state x="837" y="142" key="Github.UntrackedFilesDialog" timestamp="1616142761413">
+    <state x="587" y="487" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1616143401270" />
+    <state x="837" y="142" key="Github.UntrackedFilesDialog" timestamp="1616143405123">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="837" y="142" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1616142761413" />
-    <state width="1877" height="235" key="GridCell.Tab.0.bottom" timestamp="1616139544199">
+    <state x="837" y="142" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1616143405123" />
+    <state width="1860" height="232" key="GridCell.Tab.0.bottom" timestamp="1616143461253">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="235" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616139544199" />
-    <state width="1877" height="235" key="GridCell.Tab.0.center" timestamp="1616139544199">
+    <state width="1860" height="232" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616143461253" />
+    <state width="1860" height="232" key="GridCell.Tab.0.center" timestamp="1616143461253">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="235" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616139544199" />
-    <state width="1877" height="235" key="GridCell.Tab.0.left" timestamp="1616139544199">
+    <state width="1860" height="232" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616143461253" />
+    <state width="1860" height="232" key="GridCell.Tab.0.left" timestamp="1616143461253">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="235" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616139544199" />
-    <state width="1877" height="235" key="GridCell.Tab.0.right" timestamp="1616139544199">
+    <state width="1860" height="232" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616143461253" />
+    <state width="1860" height="232" key="GridCell.Tab.0.right" timestamp="1616143461253">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="235" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616139544199" />
+    <state width="1860" height="232" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616143461253" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1616143381483">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1616143381483" />
-    <state x="581" y="253" key="Vcs.Push.Dialog.v2" timestamp="1616142886075">
+    <state x="581" y="253" key="Vcs.Push.Dialog.v2" timestamp="1616143600843">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="581" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1616142886075" />
+    <state x="581" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1616143600843" />
     <state x="707" y="397" width="505" height="233" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1616143167472">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
