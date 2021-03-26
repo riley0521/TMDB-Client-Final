@@ -12,9 +12,10 @@ import com.farro.tmdbclient.presentation.OnItemClickListener
 
 
 class MovieAdapter(
-    private val listener: OnItemClickListener,
-    private val movies: ArrayList<Movie>
+    private val listener: OnItemClickListener
 ) : RecyclerView.Adapter<MovieAdapter.MovieViewHolder>() {
+
+    private val movies = ArrayList<Movie>()
 
     fun setList(movieList: List<Movie>) {
         movies.clear()

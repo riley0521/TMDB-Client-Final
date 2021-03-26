@@ -16,10 +16,10 @@ import com.farro.tmdbclient.data.model.artist.Artist
 import com.farro.tmdbclient.databinding.ActivityArtistBinding
 import com.farro.tmdbclient.presentation.OnItemClickListener
 import com.farro.tmdbclient.presentation.di.Injector
-import kotlinx.android.synthetic.main.activity_artist.*
 import javax.inject.Inject
 
 class ArtistActivity : AppCompatActivity(), OnItemClickListener {
+
     @Inject
     lateinit var factory: ArtistViewModelFactory
 
@@ -39,7 +39,8 @@ class ArtistActivity : AppCompatActivity(), OnItemClickListener {
         val response = viewModel.getArtists()
         response.observe(this, Observer {
             if(it != null) {
-                adapter = ArtistAdapter(this, ArrayList(it))
+                adapter = ArtistAdapter(this)
+                adapter.setList(it)
                 binding.apply {
                     recyclerViewArtists.setHasFixedSize(false)
                     recyclerViewArtists.adapter = adapter
@@ -74,7 +75,7 @@ class ArtistActivity : AppCompatActivity(), OnItemClickListener {
         val response = viewModel.updateArtists()
         response.observe(this, Observer {
             if (it != null) {
-                adapter.updateList(it)
+                adapter.setList(it)
                 adapter.notifyDataSetChanged()
                 binding.progressBar.visibility = View.GONE
             } else {

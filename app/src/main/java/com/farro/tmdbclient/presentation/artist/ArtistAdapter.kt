@@ -12,11 +12,12 @@ import com.farro.tmdbclient.presentation.OnItemClickListener
 
 
 class ArtistAdapter(
-    private val listener: OnItemClickListener,
-    private var artists: ArrayList<Artist>
+    private val listener: OnItemClickListener
 ) : RecyclerView.Adapter<ArtistAdapter.ArtistViewHolder>() {
 
-    fun updateList(artistList: List<Artist>) {
+    private var artists = ArrayList<Artist>()
+
+    fun setList(artistList: List<Artist>) {
         artists.clear()
         artists = ArrayList(artistList)
     }
@@ -49,7 +50,8 @@ class ArtistAdapter(
 
         fun bind(artist: Artist) {
             binding.tvTitle.text = artist.name
-            binding.tvDescription.text = artist.popularity.toString()
+            binding.tvDescription.text =
+                "Popularity: ${artist.popularity.toString()}\n ${artist.knownForDepartment}"
             val posterURL = "https://image.tmdb.org/t/p/w500" + artist.profilePath
             Glide.with(binding.imageView.context)
                 .load(posterURL)

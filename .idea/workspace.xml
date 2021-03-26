@@ -11,8 +11,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5eb5bc84-3636-41d1-bc82-f9440bcd44df" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/farro/tmdbclient/presentation/App.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/farro/tmdbclient/presentation/App.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/farro/tmdbclient/data/model/artist/Artist.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/farro/tmdbclient/data/model/artist/Artist.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/farro/tmdbclient/data/model/movie/Movie.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/farro/tmdbclient/data/model/movie/Movie.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/farro/tmdbclient/data/model/tvshow/TvShow.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/farro/tmdbclient/data/model/tvshow/TvShow.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/farro/tmdbclient/presentation/HomeActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/farro/tmdbclient/presentation/HomeActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/farro/tmdbclient/presentation/artist/ArtistActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/farro/tmdbclient/presentation/artist/ArtistActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/farro/tmdbclient/presentation/artist/ArtistAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/farro/tmdbclient/presentation/artist/ArtistAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/farro/tmdbclient/presentation/movie/MovieActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/farro/tmdbclient/presentation/movie/MovieActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/farro/tmdbclient/presentation/movie/MovieAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/farro/tmdbclient/presentation/movie/MovieAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/farro/tmdbclient/presentation/tvshow/TvShowActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/farro/tmdbclient/presentation/tvshow/TvShowActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/farro/tmdbclient/presentation/tvshow/TvShowAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/farro/tmdbclient/presentation/tvshow/TvShowAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +77,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
-    <property name="add_unversioned_files" value="true" />
+    <property name="add_unversioned_files" value="true&#10;C:/Users/riley/AndroidStudioProjects/TMDBClient/.gitignore" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
@@ -174,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616143599168</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Refactor some codes and added update function for API">
+      <created>1616143732611</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1616143732611</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -201,14 +231,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="628" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1616142157474" />
+    <state x="100" y="100" width="1720" height="840" key="AVDManager" timestamp="1616228657601">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="100" y="100" width="1720" height="840" key="AVDManager/0.0.1920.1040@0.0.1920.1040" timestamp="1616228657601" />
     <state x="540" y="275" key="AndroidCreateResourceFileDialog" timestamp="1616139797593">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="275" key="AndroidCreateResourceFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1616139797593" />
-    <state x="553" y="12" key="CommitChangelistDialog2" timestamp="1616143598058">
+    <state x="553" y="12" key="CommitChangelistDialog2" timestamp="1616143732104">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="553" y="12" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1616143598058" />
+    <state x="553" y="12" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1616143732104" />
     <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1616143159215">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -237,17 +271,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1860" height="232" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616143461253" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1616143381483">
+    <state x="461" y="164" key="SettingsEditor" timestamp="1616228349692">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1616143381483" />
-    <state x="581" y="253" key="Vcs.Push.Dialog.v2" timestamp="1616143600843">
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1616228349692" />
+    <state x="581" y="253" key="Vcs.Push.Dialog.v2" timestamp="1616143734525">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="581" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1616143600843" />
+    <state x="581" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1616143734525" />
     <state x="707" y="397" width="505" height="233" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1616143167472">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="707" y="397" width="505" height="233" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1616143167472" />
+    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1616161848472">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1616161848472" />
   </component>
 </project>

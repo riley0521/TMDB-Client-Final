@@ -11,7 +11,7 @@
     >
 
     <Button
-        android:id="@+id/movie_button"
+        android:id="@+id/btnMovies"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_gravity="center"
@@ -25,7 +25,7 @@
         android:textSize="50sp" />
 
     <Button
-        android:id="@+id/tv_button"
+        android:id="@+id/btnTvShows"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_gravity="center"
@@ -39,7 +39,7 @@
         android:textSize="50sp" />
 
     <Button
-        android:id="@+id/artists_button"
+        android:id="@+id/btnArtists"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_gravity="center"

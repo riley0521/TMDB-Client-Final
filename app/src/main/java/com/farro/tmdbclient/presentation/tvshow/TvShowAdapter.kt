@@ -12,9 +12,10 @@ import com.farro.tmdbclient.presentation.OnItemClickListener
 
 
 class TvShowAdapter(
-    private val listener: OnItemClickListener,
-    private val tvShows: ArrayList<TvShow>
+    private val listener: OnItemClickListener
 ):RecyclerView.Adapter<TvShowAdapter.TvShowViewHolder>() {
+
+    private var tvShows = ArrayList<TvShow>()
 
     fun setList(tvShowList:List<TvShow>){
          tvShows.clear()
@@ -34,6 +35,18 @@ class TvShowAdapter(
 
     inner class TvShowViewHolder(val binding: ListItemBinding):
         RecyclerView.ViewHolder(binding.root){
+
+        init {
+            binding.apply {
+                cardView.setOnClickListener {
+                    val position = adapterPosition
+                    if(position != RecyclerView.NO_POSITION) {
+                        val tvShow = tvShows[position]
+                        listener.OnItemClick(tvShow)
+                    }
+                }
+            }
+        }
 
         fun bind(tvShow:TvShow){
             binding.tvTitle.text = tvShow.name

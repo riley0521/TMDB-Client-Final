@@ -39,7 +39,8 @@ class TvShowActivity : AppCompatActivity(), OnItemClickListener {
         val response = viewModel.getTvShows()
         response.observe(this, Observer {
             if(it != null) {
-                adapter = TvShowAdapter(this, ArrayList(it))
+                adapter = TvShowAdapter(this)
+                adapter.setList(it)
                 binding.apply {
                     recyclerViewTvShows.setHasFixedSize(false)
                     recyclerViewTvShows.adapter = adapter

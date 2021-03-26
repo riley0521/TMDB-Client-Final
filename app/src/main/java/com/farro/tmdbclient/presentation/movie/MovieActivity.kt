@@ -39,7 +39,8 @@ class MovieActivity : AppCompatActivity(), OnItemClickListener {
         val response = viewModel.getMovies()
         response.observe(this, Observer {
             if(it != null) {
-                adapter = MovieAdapter(this, ArrayList(it))
+                adapter = MovieAdapter(this)
+                adapter.setList(it)
                 binding.apply {
                     recyclerViewMovies.setHasFixedSize(false)
                     recyclerViewMovies.adapter = adapter
